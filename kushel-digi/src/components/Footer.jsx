@@ -1,6 +1,8 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import companyLogo from "../assets/company_logo.svg";
+import up from "../assets/up.png";
+
 
 const Footer = () => {
   return (
@@ -94,6 +96,11 @@ const Footer = () => {
                 <path d="M9 8h-3v4h3v12h5v-12h3.642l.358-4h-4v-1.667c0-.955.192-1.333 1.115-1.333h2.885v-5h-3.808c-3.596 0-5.192 1.583-5.192 4.615v3.385z"></path>
               </svg>
             </Link>
+          </div>
+          <div className="text-center">
+            <button className="bg-[#0B56E4] text-white rounded-full py-2 px-2 flex cursor-pointer">
+              Back to top <span><img src={up} alt="" /></span>
+            </button>
           </div>
           <div className="text-right text-sm">
             <p> @{new Date().getFullYear()} Kusheldigi. All Rights Reserved.</p>
