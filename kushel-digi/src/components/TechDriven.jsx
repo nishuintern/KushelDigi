@@ -55,7 +55,7 @@ const TechDriven = () => {
         {technologies.map((tech, idx) => (
           <div
             key={idx}
-            className="border border-gray-200 hover:shadow-lg transition rounded-lg p-6 bg-white"
+            className="border border-[#0B56E4] hover:shadow-lg transition rounded-xl p-6 bg-white"
           >
             {tech.logo && (
               <img
